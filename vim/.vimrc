@@ -20,6 +20,8 @@ Plug 'bling/vim-bufferline'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'elixir-lang/vim-elixir', {'for' : 'elixir'}
+Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 "Plug 'valloric/youcompleteme'
 call plug#end()
 

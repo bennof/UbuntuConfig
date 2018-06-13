@@ -20,8 +20,11 @@ Plug 'bling/vim-bufferline'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'jimenezrick/vimerl', {'for': 'erlang'}
 Plug 'elixir-lang/vim-elixir', {'for' : 'elixir'}
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
+Plug 'tpope/vim-fireplace', {'for':'clojure'}
+Plug 'lervag/vimtex'
 "Plug 'valloric/youcompleteme'
 call plug#end()
 

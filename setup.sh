@@ -101,11 +101,11 @@ erlang () { ## install erlang and elixir
 }
 
 dev () { ## install development tools [meta package]
-	git; clike; r; js; python; clojure; erlang
+	git; clike; js; python; clojure; erlang
 }
 #plan9
 plan9 () { ## install plan 9 tools
-	sudo apt-get install xorg-dev
+	sudo apt-get install xorg-dev fonts-lato
 	if [ ! -d ~/plan9port ]; then 
 		git clone https://github.com/9fans/plan9port ~/plan9port
 		cd ~/plan9port

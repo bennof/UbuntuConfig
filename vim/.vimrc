@@ -37,3 +37,4 @@ set background=dark
 colorscheme solarized
 let g:airline_theme='badwolf'
 let g:airline#extensions#tabline#enabled = 1
+hi Normal ctermbg=NONE

@@ -1,0 +1,8 @@
+
+#nitrogen --restore &
+feh --bg-scale ~/.config/background.jpg &
+lxpolkit &
+clipit &
+compton &
+xautolock -time 15 -locker "~/.bin/lock.sh" &
+xfce4-panel &
